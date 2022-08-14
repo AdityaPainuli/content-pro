@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.box-items {
+  @apply py-[2.5rem] cursor-pointer  px-[3rem] shadow-md rounded-md  bg-gray-300 mt-4 text-xl font-semibold flex flex-col items-center space-y-4;
+}
